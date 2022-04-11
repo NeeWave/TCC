@@ -1,0 +1,155 @@
+/* 
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bar {
+  background: rgb(217, 185, 146);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 35px;
+}
+
+#esquerdo {
+  border: 1px solid red;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex;
+}
+a {
+  text-decoration: none;
+}
+
+#logo {
+}
+
+#imgLogo {
+  width: 100px;
+}
+
+.menu {
+  background: rgb(78, 18, 17);
+  border-radius: 20px;
+  color: #fff;
+  font-family: "Trebuchet MS";
+  margin: 0 1.5em;
+  padding: 0.4em 0.6em;
+  text-align: center;
+}
+
+.menu:hover {
+  background: rgba(94, 1, 1, 0.55);
+}
+
+#direito {
+  border: 1px solid red;
+  width: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+} 
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bar {
+  background: rgb(217, 185, 146);
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  justify-content: center;
+  width: 100%;
+}
+
+.btnsMenu {
+  /* border: 1px solid red; */
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 66.6%;
+}
+
+.btns {
+  /* border: 1px solid green; */
+  text-align: center;
+  padding: 0 5%;
+}
+
+.btns a {
+  /* border: 1px solid green; */
+  color: rgb(78, 18, 17);
+  font-family: "Trebuchet MS";
+  font-size: 1.1em;
+  text-decoration: none;
+}
+
+.btns a:hover {
+  color: rgb(78, 18, 17, 60%);
+}
+
+.loginMenu {
+  /* border: 1px solid blue; */
+  align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: flex-end;
+  padding-right: 50px;
+  position: relative;
+  width: 33.3%;
+}
+
+#loginMenu {
+  /* border: 1px solid red; */
+  font-family: "Trebuchet MS";
+  font-size: 1.1em;
+  color: rgb(78, 18, 17);
+}
+#loginMenu:hover {
+  color: rgb(78, 18, 17, 70%);
+  cursor: pointer;
+}
+
+.loginHidden {
+  border: 1px solid #dbdbdb;
+  align-items: center;
+  background: #fafafa;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgb(0, 0, 0, 20%);
+  display: flex;
+  flex-direction: column;
+  font-family: "Trebuchet MS";
+  height: 200px;
+  justify-content: center;
+  position: absolute;
+  right: 7.35%;
+  top: 22px;
+  min-width: 150px;
+  width: 40%;
+  z-index: 2;
+  /* display: none; */
+}
+
+.textLogin {
+  border: 1px solid red;
+  align-items: center;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  width: 100%;
+}
+
+.textCadastro {
+  border: 1px solid red;
+}
